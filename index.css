@@ -1,0 +1,15 @@
+body {
+  margin:11em;
+  border: 2em;
+  border-color: gray;
+  position: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.label p{
+  outline:1em;
+  font-weight: 200;
+  position: center;
+  color: rgb(106, 106, 107);
+  font-style: italic;
+}
