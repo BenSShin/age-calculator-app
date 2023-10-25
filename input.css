@@ -1,0 +1,23 @@
+
+label,input {
+  font-size: 8 px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  max-width: 5em;
+  max-height: 2.5em;
+  background-color: rgb(237, 237, 237);
+  border: 13px;
+  margin-right: 2em;
+}
+
+.input_day {
+  float: left;
+}
+
+.input_month {
+  float: left;
+}
+

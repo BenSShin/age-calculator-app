@@ -1,3 +1,5 @@
+@import "input.css";
+
 body {
   margin:11em;
   border: 2em;
@@ -6,15 +8,3 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-label,input {
-  font-size: 8 px;
-  display: flex;
-  flex-direction: row;
-}
-
-input {
-  max-width: 5em;
-  max-height: 2.5em;
-  background-color: rgb(237, 237, 237);
-  border: 13px;
-}
