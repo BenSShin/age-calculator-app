@@ -1,0 +1,25 @@
+@import "fonts.css";
+
+.result {
+  padding-top: 50px;
+  padding-left: 30px;
+  margin-left: 0;
+  position: absolute;
+}
+
+.output {
+  font-size: 60px;
+  font-family: resultFont;
+  color: rgb(119, 2, 173);
+  letter-spacing: 4px;
+  line-height: 10px;
+}
+
+.label {
+  font-size: 60px;
+  padding-left: 20px;
+  margin: 10px auto;
+  font-family: resultFont;
+  color: black;
+  line-height: 10px;
+}
