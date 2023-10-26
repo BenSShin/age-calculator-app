@@ -1,26 +1,31 @@
+@import "fonts.css";
 
 label,input {
-  font-size: 8 px;
   display: flex;
   flex-direction: column;
-  font-family: impact,fantasy;
   letter-spacing: 1px;
-  color: rgb(79, 79, 79);
+  color: rgb(0, 0, 0);
 }
 
-input {
+label {
+  font-family: inputFont;
+  font-size: 12px;
+  opacity: .5;
+}
+
+input, textarea{
   max-width: 80px;
   padding: 6px 0;
   padding-left: 10px;
-  background-color: rgb(237, 237, 237);
-  border: 13px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgba(94, 94, 94, 0.397);
   margin-right: 2em;
   border-radius: 4px;
 }
 
 ::placeholder {
   font-weight: bold;
-  font-family: impact,fantasy;
+  font-family: inputFont;
   letter-spacing: 1px;
 }
 

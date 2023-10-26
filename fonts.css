@@ -2,3 +2,13 @@
   font-family: resultFont;
   src: url('./assets/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype')
 }
+
+@font-face {
+  font-family: inputFont;
+  src: url('./assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: labelFont;
+  src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
