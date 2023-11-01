@@ -9,11 +9,11 @@
   <title>Frontend Mentor | Age calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(242, 59%, 47%); }
-  </style>
-</head>
+  </style> -->
+</head>     
 <body>
   <div class="calc-box"> 
     <!-- this is the box surrounding the calc -->
@@ -22,12 +22,14 @@
       <form action="/action_page.php">
         <div class="input_day">
           <label for="day"> DAY</label>
-          <input type="text" id="day" name="day" placeholder="DD"><br><br>
+          <input type="text" id="day" name="day" placeholder="DD">
         </div>
+
         <div class="input_month">
           <label for="months">MONTH</label>
-          <input type="text" id="months" name="months" placeholder="MM"><br><br>
+          <input type="text" id="month" name="months" placeholder="MM">
         </div>
+
         <div  class="input_year">
           <label for="year">YEAR</label>
           <input type="text" id="year" name="year" placeholder="YYYY">
@@ -35,15 +37,14 @@
       </form>
     </div>
     <div class="button">
-      <img src="/assets/images/favicon-32x32.png" alt="2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+      <input id ="calculate" type="button">
     </div>
     <div class="result">
       <!-- this is where the results will show -->
       <div class="output" style="display: inline-block;">
-        <p class="days">--</p>
-        <p class="months">--</p>
-        <p class="years">--</p>
+        <label class="days">--</label>
+        <label class="months">--</label>
+        <label class="years">--</label>
       </div>
       <div class="label" style="display: inline-block;">
         <p>years</p>
