@@ -22,6 +22,11 @@ input, textarea{
   margin-right: 2em;
   border-radius: 4px;
 }
+input {
+  font-family: inputFont;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 
 ::placeholder {
   font-weight: bold;
