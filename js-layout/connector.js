@@ -31,7 +31,7 @@ const dayInMonths = {
 function dateToTotalDays() {
   var currentTotalDays = currentDay + 365 * currentYear;
   var dayToMonths = 0;
-  for (let i = 1; i < ${currentMonth}; index++) {
+  for (let i = 1; i < currentMonth; i++) {
     dayToMonths += dayInMonths[i];
   }
 }

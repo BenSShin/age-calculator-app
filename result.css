@@ -1,13 +1,12 @@
 @import "fonts.css";
 
 .result {
-  padding-top: 50px;
   padding-left: 30px;
   margin-left: 0;
   position: absolute;
 }
 
-.output {
+.output p{
   font-size: 60px;
   font-family: resultFont;
   color: rgb(138, 90, 205);
