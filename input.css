@@ -54,7 +54,12 @@ button {
   border-radius: 50%;
   margin-left: 355px;
   margin-top: 30px;
-  border: 1px solid black;
+  border: 2px solid black;
+  transition: .5s;
 }
 
+button:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(138, 90, 205);
+}
 

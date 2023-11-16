@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="index.css">
   <title>Frontend Mentor | Age calculator app</title>
-
+  
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -22,30 +22,30 @@
       <form action="/action_page.php">
         <div class="input_day">
           <label for="day"> DAY</label>
-          <input type="text" id="day" name="day" placeholder="DD">
+          <input type="number" id="day" name="day" placeholder="DD">
         </div>
-
+        
         <div class="input_month">
           <label for="months">MONTH</label>
-          <input type="text" id="month" name="months" placeholder="MM">
+          <input type="number" id="month" name="months" placeholder="MM">
         </div>
-
+        
         <div  class="input_year">
           <label for="year">YEAR</label>
-          <input type="text" id="year" name="year" placeholder="YYYY">
+          <input type="number" id="year" name="year" placeholder="YYYY">
         </div>
       </form>
     </div>
     <div class button>
       <!-- button -->
-      <button></button>
+      <button id="button"></button>
     </div>
     <div class="result">
       <!-- this is where the results will show -->
       <div class="output" style="display: inline-block;">
-        <p id="days">--</p>
-        <p id="months">--</p>
-        <p id="years">--</p>
+        <p id="output_days">--</p>
+        <p id="output_months">--</p>
+        <p id="output_years">--</p>
       </div>
       <div class="label" style="display: inline-block;">
         <p>years</p>
@@ -59,5 +59,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Ben Shiin</a>.
   </div>
+  <script src="js-layout/connector.js"></script>
 </body>
 </html>
